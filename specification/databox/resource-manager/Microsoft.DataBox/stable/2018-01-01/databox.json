@@ -138,11 +138,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "ServiceRegionConfiguration": {
-            "$ref": "./examples/ServiceRegionConfiguration.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/serviceHealth": {
@@ -177,11 +172,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "ServiceGetHealth": {
-            "$ref": "./examples/ServiceGetHealth.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/locations/{location}/validateAddress": {
@@ -225,11 +215,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "ServiceValidateAddress": {
-            "$ref": "./examples/ServiceValidateAddress.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/providers/Microsoft.DataBox/unregister": {
@@ -261,11 +246,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "ServiceUnRegisterProvider": {
-            "$ref": "./examples/ServiceUnRegisterProvider.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs": {
@@ -512,11 +492,6 @@
           }
         },
         "x-ms-long-running-operation": true,
-        "x-ms-examples": {
-          "JobsUpdate": {
-            "$ref": "./examples/JobsUpdate.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/bookShipmentPickUp": {
@@ -563,11 +538,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "JobsBookShipmentPickUp": {
-            "$ref": "./examples/JobsBookShipmentPickUp.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/cancel": {
@@ -611,11 +581,6 @@
             "description": "Job cancelled."
           }
         },
-        "x-ms-examples": {
-          "JobsCancel": {
-            "$ref": "./examples/JobsCancel.json"
-          }
-        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/listCredentials": {
@@ -707,11 +672,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "ServiceValidateInputs": {
-            "$ref": "./examples/ServiceValidateInputs.json"
-          }
-        }
       }
     }
   },
