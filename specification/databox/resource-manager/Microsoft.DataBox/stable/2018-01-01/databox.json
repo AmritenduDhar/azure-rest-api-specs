@@ -3697,7 +3697,7 @@
               }
             ]
           }
-        }	     
+        }	  
 	  },
       "discriminator": "validationType"
     },
